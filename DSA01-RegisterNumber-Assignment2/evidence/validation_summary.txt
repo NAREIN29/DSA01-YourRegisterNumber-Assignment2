@@ -1,0 +1,86 @@
+Validation performed in package-generation environment.
+Compiler: /usr/bin/g++
+
+=== Q1_Hostel_Fee ===
+=== Concession methods ===
+By value: 45000
+By reference: 40500
+By pointer: 40500
+Return by value: 40500
+=== Given output-prediction program ===
+1 12 13
+1 100
+16 13 6 
+=== Complete the Code ===
+after call by value : 45000
+after call by reference: 40500
+
+=== Q2_Marks_Register ===
+/mnt/data/DSA01-RegisterNumber-Assignment2/Q2_Marks_Register/main.cpp: In function ‘int& danglingReference()’:
+/mnt/data/DSA01-RegisterNumber-Assignment2/Q2_Marks_Register/main.cpp:29:12: warning: reference to local variable ‘local’ returned [-Wreturn-local-addr]
+   29 |     return local; // compiler warning; returned reference dangles
+      |            ^~~~~
+/mnt/data/DSA01-RegisterNumber-Assignment2/Q2_Marks_Register/main.cpp:28:9: note: declared here
+   28 |     int local = 99;
+      |         ^~~~~
+Highest before moderation: 91
+Highest after moderation: 93
+Index approach: marks[1] = 93
+Pointer approach: 93
+Vector reference before growth: 95
+Vector after growth, safe indexed access: 95
+Do not dereference the old reference after possible reallocation.
+
+=== Q3_Courier_Charges ===
+charge(2) = [grams overload] 30.02
+charge(2.0) = [kg overload] 54.00
+charge(2.0f) = [kg overload] 54.00
+charge(2.0, true) = [kg overload] 74.00
+charge(2.0, true, true) = [kg overload] 84.00
+charge(parcel) = [Parcel overload] [kg overload] 64.00
+
+=== Q4_Savings_Account ===
+Account: SA1001
+Balance: 12500
+Recent transactions (oldest to newest):
+-200
+1000
+-300
+250
+-100
+700
+-50
+125
+-25
+600
+
+=== Q5_Bus_Tickets ===
+=== Token prediction program ===
+101 103 104 4
+=== Bus capacity test ===
+Asha: Seat 1
+Bala: Seat 2
+Chitra: Seat 3
+Dev: Waiting
+Issued: 3
+=== Function called twice ===
+Function ticket 1: Waiting
+Function ticket 2: Waiting
+Function ticket 1: Waiting
+Function ticket 2: Waiting
+Issued after both calls: 3
+
+=== Q6_Train_Planner ===
+205 false
+same: 0 false
+across noon: 2 true
+10M calls benchmark (microseconds): 3082
+
+=== Q7_Design_Challenge ===
+Transactions inserted: 2000000
+Shift checksum: 19999955
+Circular checksum: 19999955
+Shift time (us): 15665
+Circular time (us): 6196
+
+Machine-specific timings should be rerun on the student's computer before submission.

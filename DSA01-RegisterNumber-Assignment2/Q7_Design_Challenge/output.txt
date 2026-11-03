@@ -1,0 +1,5 @@
+Transactions inserted: 2000000
+Shift checksum: 19999955
+Circular checksum: 19999955
+Shift time (us): 15665
+Circular time (us): 6196

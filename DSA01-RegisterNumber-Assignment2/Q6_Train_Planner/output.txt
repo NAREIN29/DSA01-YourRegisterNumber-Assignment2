@@ -1,0 +1,4 @@
+205 false
+same: 0 false
+across noon: 2 true
+10M calls benchmark (microseconds): 3082

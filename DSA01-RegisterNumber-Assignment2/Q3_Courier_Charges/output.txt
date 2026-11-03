@@ -1,0 +1,6 @@
+charge(2) = [grams overload] 30.02
+charge(2.0) = [kg overload] 54.00
+charge(2.0f) = [kg overload] 54.00
+charge(2.0, true) = [kg overload] 74.00
+charge(2.0, true, true) = [kg overload] 84.00
+charge(parcel) = [Parcel overload] [kg overload] 64.00

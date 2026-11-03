@@ -1,0 +1,14 @@
+=== Token prediction program ===
+101 103 104 4
+=== Bus capacity test ===
+Asha: Seat 1
+Bala: Seat 2
+Chitra: Seat 3
+Dev: Waiting
+Issued: 3
+=== Function called twice ===
+Function ticket 1: Waiting
+Function ticket 2: Waiting
+Function ticket 1: Waiting
+Function ticket 2: Waiting
+Issued after both calls: 3

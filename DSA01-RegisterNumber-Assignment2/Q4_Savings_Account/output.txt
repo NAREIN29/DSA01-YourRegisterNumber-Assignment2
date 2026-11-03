@@ -1,0 +1,13 @@
+Account: SA1001
+Balance: 12500
+Recent transactions (oldest to newest):
+-200
+1000
+-300
+250
+-100
+700
+-50
+125
+-25
+600

@@ -1,0 +1,7 @@
+Highest before moderation: 91
+Highest after moderation: 93
+Index approach: marks[1] = 93
+Pointer approach: 93
+Vector reference before growth: 95
+Vector after growth, safe indexed access: 95
+Do not dereference the old reference after possible reallocation.
